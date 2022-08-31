@@ -1,0 +1,16 @@
+so create an application which consists of three sections:
+
+- Telegram Bot
+- Web UI
+- Backend
+
+Basic idea is that, we use the bot to send voice messages. It gets processed in the backend where we perform a speech to text, and display that to the web ui.
+
+This is the initial idea, but we can probably expand on that.
+
+Tech stack:
+- Telegram Bot - JavaScript
+- Backend - Node/Express
+- Web UI - JavaScript/Svelte???
+
+We may want to incorporate queues (RabbitMQ or Kafka or alternative) at some point
